@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<rss xmlns:iweb="http://www.apple.com/iweb" version="2.0">
+  <channel>
+    <title>Home</title>
+    <link>http://www.zarrastudios.com/ZDS/Home</link>
+    <description></description>
+    <item>
+      <title>iWeb Buddy 1.6.4 Released!</title>
+      <link>http://www.zarrastudios.com/ZDS/Home/Entries/2012/5/21_iWeb_Buddy_1.6.4_Released%21.html</link>
+      <guid isPermaLink="false">5e3bbad6-01eb-4819-84ab-c6e0a3d99065</guid>
+      <pubDate>Mon, 21 May 2012 14:17:22 -0700</pubDate>
+      <description>&lt;br/&gt;Lots of changes are going on around here!&lt;br/&gt;iWeb Buddy has finally been approved for release via the &lt;a href="http://itunes.apple.com/us/app/buddy-for-iweb/id448345983?mt=12"&gt;Mac App Store&lt;/a&gt;.  This has a few impacts:&lt;br/&gt;	1.	Anyone who is interested in purchasing iWeb Buddy can now download it directly from the Mac App Store.&lt;br/&gt;	2.	iWeb Buddy has been renamed to &#x201C;Buddy for iWeb&#x201D;.  While this is unfortunate it is required by Apple to be in the Mac App Store.&lt;br/&gt;	3.	We will no longer be offering iWeb Buddy for purchase directly from our website.&lt;br/&gt;As always, if you run into any issues with this release, &lt;a href="mailto:support@zarrastudios.com?subject=iWeb%20Buddy%20connectivity%20issue/"&gt;please let us know&lt;/a&gt;.&lt;br/&gt;Changes since last build:&lt;br/&gt;	&#x2022;	Fixed a crashing bug when trying to retrieve page thumbnail images.&lt;br/&gt;	&#x2022;	This is probably the last release to support OS X 10.5 unless major bugs are discovered.&lt;br/&gt;If you are an existing owner of iWeb Buddy then you can receive this latest update by checking for updates from within iWeb Buddy.&lt;br/&gt;If you are new to iWeb Buddy, you can receive this update by downloading it from the Mac App Store.&lt;br/&gt;Please enjoy this release of iWeb Buddy and report any issues you may find on our new support forum at &lt;a href="http://help.zarrastudios.com/"&gt;http://help.zarrastudios.com&lt;/a&gt;.&lt;br/&gt;</description>
+      <iweb:comment enabled="0" count="0" link="http://www.zarrastudios.com/ZDS/Home/Entries/2012/5/21_iWeb_Buddy_1.6.4_Released%21.html#comment_layer"></iweb:comment>
+    </item>
+    <item>
+      <title>iWeb Buddy 1.6.2 Released!</title>
+      <link>http://www.zarrastudios.com/ZDS/Home/Entries/2011/12/15_iWeb_Buddy_1.6.2_Released%21.html</link>
+      <guid isPermaLink="false">da544fce-bcea-4605-b564-2fc980b3feeb</guid>
+      <pubDate>Thu, 15 Dec 2011 11:02:29 -0800</pubDate>
+      <description>As it always happens when we do a long awaited release; a few things show up right after we release it.  iWeb Buddy 1.6.2 is available for download.&lt;br/&gt;As always, if you run into any issues with this release, &lt;a href="mailto:support@zarrastudios.com?subject=iWeb%20Buddy%20connectivity%20issue/"&gt;please let us know&lt;/a&gt;.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;Changes since last build:&lt;br/&gt;	&#x2022;	Removed the obsolete Haloscan options.&lt;br/&gt;	&#x2022;	Removed the obsolete Google Analytics Urchin options.&lt;br/&gt;	&#x2022;	Updated Google Analytics to comply with the latest configurations.&lt;br/&gt;	&#x2022;	Logs are now emailed to Zarra Studios using Mail rather than our own mail servers. This should make it work for more people.&lt;br/&gt;	&#x2022;	Fixed a crashing bug when a site was repeatedly updated.&lt;br/&gt;You can download the latest from &lt;a href="http://iwebbuddy.s3.amazonaws.com/iWebBuddy.zip"&gt;here&lt;/a&gt;.&lt;br/&gt;Please enjoy this release of iWeb Buddy and report any issues you may find on our new support forum at &lt;a href="http://help.zarrastudios.com/"&gt;http://help.zarrastudios.com&lt;/a&gt;.&lt;br/&gt;</description>
+      <iweb:comment enabled="0" count="0" link="http://www.zarrastudios.com/ZDS/Home/Entries/2011/12/15_iWeb_Buddy_1.6.2_Released%21.html#comment_layer"></iweb:comment>
+    </item>
+    <item>
+      <title>iWeb Buddy 1.6.1 Released!</title>
+      <link>http://www.zarrastudios.com/ZDS/Home/Entries/2011/10/11_iWeb_Buddy_1.6.1_Released%21.html</link>
+      <guid isPermaLink="false">fc599642-cf45-4dcc-b6a5-929b3baa17c8</guid>
+      <pubDate>Tue, 11 Oct 2011 11:37:37 -0700</pubDate>
+      <description>As it always happens when we do a long awaited release; a few things show up right after we release it.  iWeb Buddy 1.6.1 is available for download.&lt;br/&gt;As always, if you run into any issues with this release, &lt;a href="mailto:support@zarrastudios.com?subject=iWeb%20Buddy%20connectivity%20issue/"&gt;please let us know&lt;/a&gt;.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;Changes since last build:&lt;br/&gt;	&#x2022;	Improved OS X 10.7 Lion support.&lt;br/&gt;	&#x2022;	Social bookmarks are now available on all page types.&lt;br/&gt;	&#x2022;	Updated the German localization so that the functionality now matches the English version.&lt;br/&gt;	&#x2022;	Added an introductory window to help new users understand the application.&lt;br/&gt;	&#x2022;	iWeb Buddy is now disabled when iWeb is running to prevent conflicts and other issues.&lt;br/&gt;	&#x2022;	Addressed a crash that a few users were reporting.&lt;br/&gt;	&#x2022;	Various cosmetic changes.&lt;br/&gt;You can download the latest from &lt;a href="http://iwebbuddy.s3.amazonaws.com/iWebBuddy.zip"&gt;here&lt;/a&gt;.&lt;br/&gt;Please enjoy this release of iWeb Buddy and report any issues you may find on our new support forum at &lt;a href="http://help.zarrastudios.com/"&gt;http://help.zarrastudios.com&lt;/a&gt;.&lt;br/&gt;</description>
+      <iweb:comment enabled="0" count="0" link="http://www.zarrastudios.com/ZDS/Home/Entries/2011/10/11_iWeb_Buddy_1.6.1_Released%21.html#comment_layer"></iweb:comment>
+    </item>
+    <item>
+      <title>iWeb Buddy 1.6 Released!</title>
+      <link>http://www.zarrastudios.com/ZDS/Home/Entries/2011/10/7_iWeb_Buddy_1.6_Released%21.html</link>
+      <guid isPermaLink="false">185d5fb8-e60d-4177-bba9-1542af775704</guid>
+      <pubDate>Fri, 7 Oct 2011 12:35:03 -0700</pubDate>
+      <description>It has been a while since the last release but 1.6 is now available!  The primary focus of this release is to be Lion compatible.  However there are some goodies in  here for everyone.&lt;br/&gt;As always, if you run into any issues with this release, &lt;a href="mailto:support@zarrastudios.com?subject=iWeb%20Buddy%20connectivity%20issue/"&gt;please let us know&lt;/a&gt;.&lt;br/&gt;&lt;br/&gt;&lt;br/&gt;Changes since last build:&lt;br/&gt;	&#x2022;	Improved OS X 10.7 Lion support.&lt;br/&gt;	&#x2022;	Social bookmarks are now available on all page types.&lt;br/&gt;	&#x2022;	Updated the German localization so that the functionality now matches the English version.&lt;br/&gt;	&#x2022;	Added an introductory window to help new users understand the application.&lt;br/&gt;	&#x2022;	iWeb Buddy is now disabled when iWeb is running to prevent conflicts and other issues.&lt;br/&gt;	&#x2022;	Various cosmetic changes.&lt;br/&gt;You can download the latest from &lt;a href="http://iwebbuddy.s3.amazonaws.com/iWebBuddy.zip"&gt;here&lt;/a&gt;.&lt;br/&gt;Please enjoy this release of iWeb Buddy and report any issues you may find on our new support forum at &lt;a href="http://help.zarrastudios.com/"&gt;http://help.zarrastudios.com&lt;/a&gt;.&lt;br/&gt;</description>
+      <iweb:comment enabled="0" count="0" link="http://www.zarrastudios.com/ZDS/Home/Entries/2011/10/7_iWeb_Buddy_1.6_Released%21.html#comment_layer"></iweb:comment>
+    </item>
+    <iweb:dateFormat>EEEE, MMMM d, y</iweb:dateFormat>
+    <iweb:baseURL>http://www.zarrastudios.com/ZDS/Home</iweb:baseURL>
+    <iweb:maximumSummaryItems>4</iweb:maximumSummaryItems>
+  </channel>
+</rss>

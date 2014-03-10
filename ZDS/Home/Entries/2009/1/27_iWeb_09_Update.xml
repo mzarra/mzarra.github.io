@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<content collectionGUID="C49FA6F7-DCA0-4B62-93CD-3DE058E493B2">
+  <lastEdited clientType="local-build-20120522" date="2012-05-22 18:20:51 +0000"/>
+  <textBox id="generic-title-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;iWeb 09 Update&lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-body-attributes" dynamic="no" visible="yes">
+    <richText>We have finally received our copy of iLife 2009 and have begun testing iWeb &#x2019;09 with iWeb Buddy.&#xD;The good news is that it appears to be fully compatible with publishing to MobileMe and with publishing to a Folder.  At this time we are still testing compatibility but the results are positive.  All of our test pages have worked with iWeb &#x2019;09.&#xD;Of course the bad news is that we do not currently support the new FTP feature of iWeb.  What this means is that if you are publishing to a server other than MobileMe, iWeb Buddy will not be able to update your pages at this time.  We are working on this feature and expect to have an update out soon.&#xD;In the meantime we recommend that you continue using iWeb &#x2019;09 as you used iWeb &#x2019;08 and publish your site to a folder and upload it manually.  As soon as we have an update out to correct this deficiency we will post here.&#xD;</richText>
+  </textBox>
+  <textBox id="generic-datefield-attributes" dynamic="no" visible="yes">
+    <richText>&lt;i&gt;Tuesday, January 27, 2009&lt;/i&gt;</richText>
+  </textBox>
+</content>

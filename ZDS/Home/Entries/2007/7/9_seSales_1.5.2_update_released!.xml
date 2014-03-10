@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<content collectionGUID="C49FA6F7-DCA0-4B62-93CD-3DE058E493B2">
+  <lastEdited clientType="local-build-20120522" date="2012-05-22 18:20:49 +0000"/>
+  <textBox id="generic-title-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;seSales 1.5.2 update released!&lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-body-attributes" dynamic="no" visible="yes">
+    <richText>seSales 1.5.2 is a maintenance release focused on correcting some minor issues with the 1.5.1 release.  Included in this release are the following items:&#xD;&lt;b&gt;Enhancements&lt;/b&gt;&#xD;	&#x2022;	Added &#x201C;Employee Sales&#x201D; report which shows the amount of sales produced per employee fora configurable period of time.&#xD;	&#x2022;	Added average vendor cost to the Sales By Category report.&#xD;&lt;b&gt;Corrections&lt;/b&gt;&#xD;	&#x2022;	Drawer summary will accurately reflect refunds.&#xD;	&#x2022;	Drawer will remain open even if the company data file is switched.&#xD;	&#x2022;	Random key strokes will not cause additional items to be added to invoices.&#xD;	&#x2022;	Corrected an error that allowed negative numbers to be entered during create of purchase orders.&#xD;	&#x2022;	Corrected an error with pagination in the Store Credit Report.&#xD;	&#x2022;	Corrected an error that was allowing archived items to be added to purchase orders.&#xD;	&#x2022;	Corrected an error that was preventing layaway payments from showing in drawer reports.&#xD;	&#x2022;	Adjusted the bottom margin on 80mm receipts when a note is included.&#xD;	&#x2022;	Corrected an issue with the resolution date of invoices getting set when an administrator changed the invoice date.&#xD;	&#x2022;	Corrected an issue where the drawer was not being updated when an invoice was posted.&#xD;	&#x2022;	Corrected a refresh issue with the drawer activity viewer.&#xD;	&#x2022;	Corrected a calculation error on special orders in the activity reports.&#xD;&lt;i&gt;This update is free to all registered users.&lt;/i&gt;&#xD;&lt;a href="perma://BLHome//"&gt;MSZ&lt;/a&gt;</richText>
+  </textBox>
+  <textBox id="generic-datefield-attributes" dynamic="no" visible="yes">
+    <richText>&lt;i&gt;Tuesday, July 10, 2007&lt;/i&gt;</richText>
+  </textBox>
+</content>

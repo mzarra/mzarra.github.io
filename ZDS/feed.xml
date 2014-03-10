@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ <id>urn:iweb:89B16743-FB4A-4DE9-80FE-F16A0E889AB6</id>
+ <title>Page list Atom feed</title>
+ <updated>2012-05-22T11:20:47-07:00</updated>
+ <link rel="self" href="feed.xml"/>
+ <generator>iWeb</generator>
+ <author>
+  <name>iWeb</name>
+ </author>
+ <entry>
+  <id>urn:iweb:07161E2A-D72B-4507-90C6-AEBF289EC883</id>
+  <title>Home</title>
+  <title xmlns="urn:iweb:">Home</title>
+  <in-navbar xmlns="urn:iweb:">07161E2A-D72B-4507-90C6-AEBF289EC883</in-navbar>
+  <link rel="alternate" href="Home/Home.html"/>
+  <updated>2007-01-23T09:29:52-08:00</updated>
+  <content>Home</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:12B32947-577A-4AB2-A33B-2FE49D64ED00</id>
+  <title>Products</title>
+  <title xmlns="urn:iweb:">Products</title>
+  <in-navbar xmlns="urn:iweb:">12B32947-577A-4AB2-A33B-2FE49D64ED00</in-navbar>
+  <link rel="alternate" href="Products.html"/>
+  <updated>2012-05-22T11:20:47.001-07:00</updated>
+  <content>Products</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:1E32A74A-3F34-49D2-90DA-6A05F4D10CD1</id>
+  <title>iWebBuddy</title>
+  <title xmlns="urn:iweb:">iWebBuddy</title>
+  <in-navbar xmlns="urn:iweb:">1E32A74A-3F34-49D2-90DA-6A05F4D10CD1</in-navbar>
+  <link rel="alternate" href="iWebBuddy.html"/>
+  <updated>2012-05-22T11:20:47.002-07:00</updated>
+  <content>iWebBuddy</content>
+ </entry>
+ <entry>
+  <id>urn:iweb:B2FF4D71-493D-43A0-9F76-F37635E8B772</id>
+  <title>iWB-Help</title>
+  <title xmlns="urn:iweb:">iWB-Help</title>
+  <in-navbar xmlns="urn:iweb:">B2FF4D71-493D-43A0-9F76-F37635E8B772</in-navbar>
+  <link rel="alternate" href="iWB-Help.html"/>
+  <updated>2012-05-22T11:20:47.003-07:00</updated>
+  <content>iWB-Help</content>
+ </entry>
+</feed>

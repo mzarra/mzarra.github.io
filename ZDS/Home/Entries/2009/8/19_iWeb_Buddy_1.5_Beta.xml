@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<content collectionGUID="C49FA6F7-DCA0-4B62-93CD-3DE058E493B2">
+  <lastEdited clientType="local-build-20120522" date="2012-05-22 18:20:51 +0000"/>
+  <textBox id="generic-title-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;iWeb Buddy 1.5 Beta&lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-body-attributes" dynamic="no" visible="yes">
+    <richText>We are currently in beta for iWeb Buddy.  You can download the current beta from &lt;a href="http://iwebbuddy.s3.amazonaws.com/iwb_1.5.0.9.zip"&gt;here&lt;/a&gt;.&#xD;As the beta is updated the Sparkle Update will notify you to download the latest copy.&#xD;If you are running iWeb &#x2019;09 then it is highly recommended that you use the beta of iWeb Buddy as it is specifically targeted at iWeb &#x2019;09 and &#x2019;08 compatibility.  If you are running iWeb &#x2019;08 you can continue to use the production 1.1 version.&#xD;</richText>
+  </textBox>
+  <textBox id="generic-datefield-attributes" dynamic="no" visible="yes">
+    <richText>&lt;i&gt;Wednesday, August 19, 2009&lt;/i&gt;</richText>
+  </textBox>
+</content>

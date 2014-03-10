@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<content collectionGUID="C49FA6F7-DCA0-4B62-93CD-3DE058E493B2">
+  <lastEdited clientType="local-build-20120522" date="2012-05-22 18:20:52 +0000"/>
+  <textBox id="generic-title-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;iWeb Buddy 1.5.2 Released!&lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-body-attributes" dynamic="no" visible="yes">
+    <richText>It has been a few months since our last official release.  In that time we have tracked down all of the lingering connectivity issues that have been plaguing us.  If you were part of the beta team that helped confirm all of the issues were wrapped up, we appreciate it immensely.&#xD;If you have been running into issues updating your site with iWeb Buddy, I suggest giving this latest release a try as I suspect it will resolve all of your issues.  If it does not, &lt;a href="mailto:support@zarrastudios.com?subject=iWeb%20Buddy%20connectivity%20issue"&gt;please let us know&lt;/a&gt;.&#xD;Changes since last build:&#xD;	&#x2022;	Fixed several issues relating to updating sites hosted on MobileMe.&#xD;	&#x2022;	General enhancements to the stability of file uploads and downloads.&#xD;	&#x2022;	Page previews for protected sites are displayed correctly once authentication has occurred.&#xD;	&#x2022;	Page titles, descriptions and keywords are correctly injected into pages and their sub-pages.&#xD;	&#x2022;	The site description is injected into pages which do not have their own description defined.&#xD;	&#x2022;	Site keywords are injected into all pages in addition to any keywords defined for the pages themselves.&#xD;	&#x2022;	Fixed a problem caused by a locally published site's path containing spaces.&#xD;You can download the latest from &lt;a href="http://iwebbuddy.s3.amazonaws.com/iWebBuddy.zip"&gt;here&lt;/a&gt;.&#xD;Please enjoy this release of iWeb Buddy and report any issues you may find on our new support forum at &lt;a href="http://help.zarrastudios.com"&gt;http://help.zarrastudios.com&lt;/a&gt;.&#xD;</richText>
+  </textBox>
+  <textBox id="generic-datefield-attributes" dynamic="no" visible="yes">
+    <richText>&lt;i&gt;Saturday, June 19, 2010&lt;/i&gt;</richText>
+  </textBox>
+</content>

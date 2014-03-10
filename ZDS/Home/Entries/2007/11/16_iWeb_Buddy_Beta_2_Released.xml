@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<content collectionGUID="C49FA6F7-DCA0-4B62-93CD-3DE058E493B2">
+  <lastEdited clientType="local-build-20120522" date="2012-05-22 18:20:50 +0000"/>
+  <textBox id="generic-title-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;iWeb Buddy Beta 2 Released&lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-body-attributes" dynamic="no" visible="yes">
+    <richText>Earlier today we released the second beta of iWeb Buddy to everyone on the beta list.  Not on the beta list?  Send an email to &lt;a href="mailto:beta@zarrastudios.com"&gt;beta@zarrastudios.com&lt;/a&gt; to sign up!&#xD;To learn more about iWeb Buddy, please see its &lt;a href="perma://BLPageReference/1E32A74A-3F34-49D2-90DA-6A05F4D10CD1"&gt;product page&lt;/a&gt;.&#xD;</richText>
+  </textBox>
+  <textBox id="generic-datefield-attributes" dynamic="no" visible="yes">
+    <richText>&lt;i&gt;Friday, November 16, 2007&lt;/i&gt;</richText>
+  </textBox>
+  <image id="generic-picture-attributes" dynamic="no" visible="yes" src="16_iWeb_Buddy_Beta_2_Released_files/shapeimage_1.png" left="0px" top="0px" width="86px" height="123px"/>
+</content>

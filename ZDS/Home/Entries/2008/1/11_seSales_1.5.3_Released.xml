@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<content collectionGUID="C49FA6F7-DCA0-4B62-93CD-3DE058E493B2">
+  <lastEdited clientType="local-build-20120522" date="2012-05-22 18:20:50 +0000"/>
+  <textBox id="generic-title-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;seSales 1.5.3 Released&lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-body-attributes" dynamic="no" visible="yes">
+    <richText>seSales 1.5.3 is a maintenance release focused on correcting some minor issues with the 1.5 release. Included in this release are the following items:&#xD;&lt;b&gt;Corrections&lt;/b&gt;&#xD;	&#x2022;	Fixed issue with unresolved invoices window not appearing.&#xD;	&#x2022;	Changed logic for items with custom input. If you add an item it will create a new item. But you can still change the quantity of an item using the appropriate menu item.&#xD;	&#x2022;	Items with custom input can now have variable quantities&#xD;	&#x2022;	Fixed issue with search bar in customer management&#xD;	&#x2022;	Updated the magnetic card reader to handle some edge case card readers&#xD;	&#x2022;	Corrected a minor issue with the PayPal payment processor&#xD;	&#x2022;	Corrected a permissions issue with the Discount Management for users with Entry Edition licenses&#xD;	&#x2022;	Corrected issue with bar codes that contained a dash&#xD;	&#x2022;	Cleaned up currency localizations in the invoice windows&#xD;	&#x2022;	Corrected a rare rounding error with some tax rates&#xD;	&#x2022;	Corrected a scrolling issue on invoices that are opened from the All Invoices window&#xD;	&#x2022;	Corrected a data issue when rental items are removed from an invoice&#xD;	&#x2022;	Fixed an issue with the custom input sheet on invoices when the close button is clicked.&#xD;	&#x2022;	Fixed an issue with key bindings not being saved.&#xD;This release is free for all registered used and can be downloaded directly from the links on the right.&#xD;</richText>
+  </textBox>
+  <textBox id="generic-datefield-attributes" dynamic="no" visible="yes">
+    <richText>&lt;i&gt;Friday, January 11, 2008&lt;/i&gt;</richText>
+  </textBox>
+</content>

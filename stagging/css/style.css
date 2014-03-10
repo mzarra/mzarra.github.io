@@ -1,0 +1,644 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+	font-size: 62.5%;
+	font-family: 'Helvetica Condensed', 'Arial Narrow', Helvetica, arial, sans-serif;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+h1
+{
+	font-size: 60px;
+	line-height: 1.05;
+	border-bottom: 2px groove #000;
+	padding: 0 0 22px;
+	margin: 0 0 43px;
+	font-weight: normal;
+}
+h2
+{
+	font-size: 25px;
+	line-height: 1.4;
+	margin: 0 0 10px;
+	font-weight: normal;
+}
+h3
+{
+	font-size: 22px;
+	line-height: 1.5;
+	margin: 0 0 14px;
+	font-weight: normal;
+}
+h4
+{
+	
+}
+h5
+{
+	
+}
+h6
+{
+	
+}
+p
+{
+	font-size: 18px;
+	line-height: 1.5;
+	margin: 0 0 21px;
+	font-stretch: condensed;
+}
+ul, ol
+{
+	margin: 0 0 0 20px;
+}
+ul ul,
+ul ol,
+ol ol,
+ol ul
+{
+	
+}
+li
+{
+	
+}
+a
+{
+	
+}
+strong
+{
+	font-weight: bold;
+}
+
+form
+{
+	
+}
+form ol
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+form li
+{
+	margin: 0 0 10px;
+	padding: 0;
+	overflow: hidden;
+}
+label
+{
+	font-size: 15px;
+	float: left;
+	width: 90px;
+	line-height: 2;
+}
+input[type="text"]
+{
+	width: 300px;
+	border: 1px solid #ccc;
+	font-size: 14px;
+	padding: 6px;
+	color: #333;
+}
+textarea
+{
+	width: 300px;
+	border: 1px solid #ccc;
+	font-size: 14px;
+	padding: 6px;
+	font-family: 'Helvetica Condensed', 'Arial Narrow', Helvetica, arial, sans-serif;
+	height: 100px;
+	color: #333;
+}
+.submitRow label
+{
+	visibility: hidden;
+}
+input[type="submit"]
+{
+	display: block;
+	height: 38px;
+	padding: 0 20px;
+	margin: 0 0 10px;
+	line-height: 36px;
+	font-size: 18px;
+	font-stretch: condensed;
+	color: #fff;
+	background: #090909;
+	text-decoration: none;
+	text-align: center;
+	border: none;
+	cursor: pointer;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}
+
+.floatleft
+{
+	float: left;
+	display: inline;
+}
+.floatright
+{
+	float: right;
+	display: inline;
+}
+
+.inner
+{
+	width: 1050px;
+	margin: 0 auto;
+}
+.inner:after
+{
+	content: ".";
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+
+.header
+{
+	background: url('../images/bg-header.png') no-repeat center top;
+}
+.header .inner
+{
+	position: relative;
+	height: 224px;
+}
+#logo
+{
+	position: absolute;
+	top: 33px;
+	left: 0;
+}
+#logo img
+{
+	width: 566px;
+	height: 98px;
+}
+.navbarContainer
+{
+	position: absolute;
+	bottom: 0;
+	left: 442px;
+}
+.navbar
+{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.navbar li
+{
+	margin: 0 0 0 60px;
+	padding: 0;
+	float: left;
+	display: inline;
+	
+	margin: 0 34px;
+}
+.navbar li:first-child
+{
+	/*margin-left: 0;*/
+}
+.navbar li a
+{
+	float: left;
+	display: inline;
+	text-align: center;
+	padding: 0 0 19px;
+}
+.navbar li a:hover,
+.navbar .current a
+{
+	background: url('../images/navbar/bg-navlink-highlight.png') no-repeat center bottom;
+}
+.navbar li a img
+{
+	display: block;
+}
+
+.main
+{
+	margin: 0 0 40px;
+}
+
+.imgCol
+{
+	margin-top: -21px;
+	float: left;
+	display: inline;
+}
+.imgCol img
+{
+	display: block;
+}
+
+.homeiPhoneSlider
+{
+	margin-top: -21px;
+	float: left;
+	display: inline;
+	position: relative;
+}
+.homeiPhoneSlider img
+{
+	display: block;
+}
+.homeiPhoneSlider .iconSlideshow
+{
+    height: 328px;
+    left: 29px;
+    position: absolute;
+    top: 150px;
+    width: 305px;
+}
+.homeiPhoneSlider .iconSlideshow .iconSlide
+{
+	height: 328px;
+	width: 309px;
+	overflow: hidden;
+	position: absolute;
+	left: 0;
+    top: 0;
+}
+.homeiPhoneSlider .iconSlideshow .iconSlide .iconSlideRow
+{
+	height: 59px;
+	margin-top: 28px;
+	width: 309px;
+}
+.homeiPhoneSlider .iconSlideshow .iconSlide .iconSlideRow:after
+{
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	height: 0;
+}
+.homeiPhoneSlider .iconSlideshow .iconSlide .iconSlideRow:first-child
+{
+	margin: 0;
+}
+.homeiPhoneSlider .iconSlideshow .iconSlide .iconSlideRow .iphoneIcon
+{
+	float: left;
+	width: 59px;
+	height: 59px;
+	margin-left: 15px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	
+	box-shadow: 0 1px 1px rgba(0,0,0,0.25);
+}
+
+.contentCol
+{
+	float: right;
+	width: 629px;
+	padding: 52px 0 0;
+	font-stretch: condensed;
+}
+
+.buttons
+{
+	overflow: hidden;
+	padding: 20px 0 0;
+}
+.button
+{
+	float: left;
+	display: inline;
+	margin: 0 17px 0 0;
+	padding: 0 0 0 10px;
+	background: url('../images/bg-button-left.png') no-repeat left top;
+	text-decoration: none;
+}
+.button span
+{
+	display: block;
+	height: 60px;
+	line-height: 60px;
+	background: url('../images/bg-button-right.png') no-repeat right top;
+	padding: 0 20px 0 10px;
+	font-size: 16px;
+	color: #000;
+	text-transform: uppercase;
+}
+
+.appsIntro
+{
+	text-align: justify;
+	padding: 35px 0 30px;
+	font-stretch: condensed;
+	font-size: 28px;
+}
+.appList
+{
+	overflow: hidden;
+}
+.appRow
+{
+	overflow: hidden;
+	border-bottom: 1px solid #ddd;
+	padding: 0;
+	margin: 0 0 5px;
+}
+.app
+{
+	margin: 0 0 0 50px;
+	padding: 0;
+	padding: 30px 20px 20px;
+	overflow: hidden;
+}
+.app:first-child
+{
+	margin-left: 0;
+}
+.appIconLink
+{
+	display: block;
+}
+.appIcon
+{
+	display: inline;
+	float: left;
+	margin: 0;
+	padding: 0;
+	width: 100px;
+	height: 100px;
+	border-radius: 18px;
+	-moz-border-radius: 18px;
+	-webkit-border-radius: 18px;
+}
+.appContent
+{
+	margin: 0 0 0 130px;
+}
+.appName
+{
+	font-weight: bold;
+	font-stretch: condensed;
+	font-size: 30px;
+	line-height: 1;
+	margin-top: -5px;
+}
+.appName a
+{
+	color: #111;
+	text-decoration: none;
+}
+.appName a:hover
+{
+	text-decoration: underline;
+}
+.app p
+{
+	font-size: 16px;
+	margin: 0 0 14px;
+}
+.appBuyLink
+{
+	display: inline;
+	float: left;
+	height: 38px;
+	padding: 0 20px;
+	margin: 0 0 10px;
+	line-height: 36px;
+	font-size: 18px;
+	font-stretch: condensed;
+	color: #fff;
+	background: #090909;
+	text-decoration: none;
+	text-align: center;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+}
+.itunesBuyLink
+{
+	display: inline;
+	float: right;
+	margin: 0 0 20px 30px;
+}
+
+.teamList .app
+{
+	width: 460px;
+	float: left;
+	margin: 0 0 0 50px;
+	padding: 0;
+	padding: 20px 20px 10px;
+}
+.teamList .app:first-child
+{
+	margin-left: 0;
+}
+.teamList .appIcon
+{
+	background: #f4f4f4;
+	border: 1px solid #ccc;
+}
+.teamList .appName
+{
+	font-size: 22px;
+	padding: 0;
+	margin-top: -3px;
+}
+
+.fullAppList
+{
+	margin-top: 10px;
+}
+.fullApp
+{
+	border-bottom: 1px solid #ddd;
+	overflow: hidden;
+	padding: 30px 0;
+}
+.fullAppContent
+{
+	float: left;
+	width: 600px;
+}
+.fullAppContent h3
+{
+	margin-bottom: 4px;
+}
+.fullAppScreenshot
+{
+	float: right;
+	width: 350px;
+	background: #def;
+	border: 1px solid #ddd;
+	padding: 5px;
+	
+	height: 400px;
+}
+
+.footer
+{
+	background: #505152;
+	padding: 26px 0;
+	border-top: 4px solid #b0b1b3;
+}
+.footer h3
+{
+	color: #fff;
+	font-size: 20px;
+	font-weight: bold;
+	line-height: 1;
+	margin: 0 0 14px;
+	padding: 0;
+}
+.footer p
+{
+	color: #fff;
+	font-size: 18px;
+	line-height: 1.3;
+	margin: 0;
+}
+.footer a
+{
+	color: #fff;
+	text-decoration: none;
+}
+.footer a:hover
+{
+	text-decoration: underline;
+}
+.footerColLeft
+{
+	float:left;
+	display: inline;
+	width: 490px;
+	padding-right: 32px;
+	border-right: 2px groove #fff;
+	margin: 0 0 20px;
+}
+.footerColRight
+{
+	float:right;
+	display: inline;
+	width: 490px;
+	margin: 0 0 20px;
+}
+.footerReadMore
+{
+	display: block;
+	margin: 0 0 20px;
+	padding: 10px 5px 0 0;
+	font-size: 11px;
+	font-weight: bold;
+	text-align: right;
+}
+.footerSocialLinks
+{
+	list-style: none;
+	margin: 0 0 20px;
+	padding: 0;
+}
+.footerSocialLinks li
+{
+	height:  27px;
+	margin: 0 0 12px;
+	overflow: hidden;
+}
+.footerSocialLinks li a
+{
+	display: block;
+}
+.footerSocialLinks li a img
+{
+	height:  27px;
+	width: 27px;
+	float: left;
+	display: inline;
+	margin: 0 12px 0 0;
+}
+.footerSocialLinks li a span
+{
+	float: left;
+	display: inline;
+	height: 27px;
+	line-height: 28px;
+	font-size: 18px;
+}
+.footerSocialLinks li a:hover span
+{
+	text-decoration: underline;
+}
+.footerLower
+{
+	overflow: hidden;
+	clear: both;
+}
+.footerLower p
+{
+	font-size: 12px;
+	line-height: 1;
+	margin: 0;
+	padding: 0;
+}
+.footerLower a
+{
+	padding: 0 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

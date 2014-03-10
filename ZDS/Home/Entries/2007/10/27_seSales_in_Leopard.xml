@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<content collectionGUID="C49FA6F7-DCA0-4B62-93CD-3DE058E493B2">
+  <lastEdited clientType="local-build-20120522" date="2012-05-22 18:20:50 +0000"/>
+  <textBox id="generic-title-attributes" dynamic="no" visible="yes">
+    <richText>&lt;b&gt;seSales in Leopard&lt;/b&gt;</richText>
+  </textBox>
+  <textBox id="generic-body-attributes" dynamic="no" visible="yes">
+    <richText>As a user of seSales you are probably wondering why there is no update for it now that Leopard is out the door.  Fortunately the reason for a lack of an update is good news.  seSales 1.5.2 is fully compatible with Leopard.  We were able to resolve any issues some time ago and we have confirmed that it is fully functional.&#xD;However, we are planning a release of seSales 1.5.3 in the next few days so please, stay tuned!&#xD;</richText>
+  </textBox>
+  <textBox id="generic-datefield-attributes" dynamic="no" visible="yes">
+    <richText>&lt;i&gt;Saturday, October 27, 2007&lt;/i&gt;</richText>
+  </textBox>
+</content>
