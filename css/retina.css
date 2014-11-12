@@ -1,0 +1,72 @@
+@media (-webkit-min-device-pixel-ratio: 1.5) {
+
+  footer #phone-icon {
+    background: url("../img/footer_phone-red@2x.png") no-repeat bottom;
+    background-size: 26px 28px;
+  }
+  footer #twitter {
+    background: url("../img/footer_twitter-red@2x.png") no-repeat bottom;
+    background-size: 44px 30px;
+  }
+  footer #vimeo {
+    background: url("../img/footer_vimeo-red@2x.png") no-repeat bottom;
+    background-size: 36px 30px;
+  }
+  footer #github {
+    background: url("../img/footer_github-red@2x.png") no-repeat bottom;
+    background-size: 37px 30px;
+  }
+
+  .footer-waves {
+    background: url("../img/Footer-Wave-260@2x.png") no-repeat;
+    background-size: 261px 32px;
+  }
+
+  span#dingusburger {
+    background-image: url("../img/hamburger@2x.png");
+    background-size: 21px 17px;
+  }
+
+  nav p { 
+    background-image: url("../img/navigation-logo@2x.png");
+    background-size: 40px 40px;
+  }
+
+  .quote {
+    background: url("../img/Quote@2x.png") no-repeat top left; 
+    background-size: 69px 41px;
+  }
+  .quote#white {
+    background: url("../img/QuoteWhite@2x.png") no-repeat top left; 
+    background-size: 69px 41px;
+  }
+
+  @media (min-width: 480px) {
+    header h1 {
+      background: url('../img/logo_480@2x.png') no-repeat 0 0;
+      background-size: 197px auto;
+    }
+  }
+
+  @media (min-width: 768px) {
+    .footer-waves {
+      background: url("../img/Footer-Wave-768@2x.png") no-repeat;
+      background-size: 726px 64px;
+    }
+    header #patrick-quote {
+      background: url('../img/logo_768@2x.png') no-repeat 0 0;
+      background-size: 444px 536px;
+    }
+  }
+
+  @media (min-width: 1080px) {
+    .footer-waves {
+      background: url("../img/Footer-Wave-1200@2x.png") no-repeat;
+      background-size: 1173px 69px;
+    }
+    header #patrick-quote {
+      background-image: url('../img/logo_1200@2x.png');
+      background-size: 605px 633px;
+    }
+  }
+}

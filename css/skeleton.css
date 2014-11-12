@@ -1,0 +1,195 @@
+/* Mobile first design (but most of these are mutually exclusive instead of building on
+ * on the smaller size's selectors)
+ * Table of Contents
+==================================================
+#Mobile (Portrait)
+#Mobile (Landscape)
+#Tablet (Portrait)
+#Tablet (Landscape) or Desktop
+#Clearing */
+
+
+/* #Mobile (Portrait)
+ * start off with a single column for small screens (~ 320px wide) *
+================================================== */
+.container             { position: relative; width: 260px; margin: 0 auto; padding: 0; }
+.container .column,
+.container .columns    { float: left; display: inline; margin: 0; }
+.row                   { margin-bottom: 20px; }
+
+@media (max-width: 479px) {
+    .container .one.column,
+    .container .one.columns,
+    .container .two.columns,
+    .container .three.columns,
+    .container .four.columns,
+    .container .five.columns,
+    .container .six.columns,
+    .container .seven.columns,
+    .container .eight.columns,
+    .container .nine.columns,
+    .container .ten.columns,
+    .container .eleven.columns,
+    .container .twelve.columns,
+    .container .one-third.column,
+    .container .two-thirds.column  { width: 260px; }
+}
+
+
+/* #Mobile (Landscape)
+ * widen the single column for slightly larger screens (~ 480px wide) *
+================================================== */
+@media (min-width: 480px) and (max-width: 767px) {
+    .container { width: 420px; }
+
+    .container .one.column,
+    .container .one.columns,
+    .container .two.columns,
+    .container .three.columns,
+    .container .four.columns,
+    .container .five.columns,
+    .container .six.columns,
+    .container .seven.columns,
+    .container .eight.columns,
+    .container .nine.columns,
+    .container .ten.columns,
+    .container .eleven.columns,
+    .container .twelve.columns,
+    .container .one-third.column,
+    .container .two-thirds.column { width: 420px; }
+}
+
+
+/* #Tablet (Portrait)
+ * switch to a 12 column grid for tablets or small desktop screens (~ 768px wide)
+================================================== */
+@media (min-width: 768px) and (max-width: 1079px) {
+    /*****************************
+    12 Column
+    margin width = 23
+    column width = 39
+    *****************************/
+    .container                                  { width: 744px; }
+    .container .column,
+    .container .columns                         { margin-left: 12px; margin-right: 11px;  }
+    .column.alpha, .columns.alpha               { margin-left: 0; margin-right: 11px; }
+    .column.omega, .columns.omega               { margin-right: 0; margin-left: 12px; }
+    .alpha.omega                                { margin-left: 0; margin-right: 0; }
+
+    /* total column width = (37*numCols) + (20*(numCols-1)) */
+    .container .one.column,
+    .container .one.columns                     { width: 39px; }
+    .container .two.columns                     { width: 101px; }
+    .container .three.columns                   { width: 163px; }
+    .container .four.columns                    { width: 225px; }
+    .container .five.columns                    { width: 287px; }
+    .container .six.columns                     { width: 349px; }
+    .container .seven.columns                   { width: 411px; }
+    .container .eight.columns                   { width: 473px; }
+    .container .nine.columns                    { width: 535px; }
+    .container .ten.columns                     { width: 597px; }
+    .container .eleven.columns                  { width: 659px; }
+    .container .twelve.columns                  { width: 721px; }
+
+    .container .one-third.column                { width: 2225px; } /* ((744/3) - 23) */
+    .container .two-thirds.column               { width: 473px; } /* (((744/3) *2) - 23) */
+
+    /* Offsets */
+    /* total offset = (39*numCols) + (23*numCols) */
+    .container .offset-by-one                   { padding-left: 62px; }
+    .container .offset-by-two                   { padding-left: 124px; }
+    .container .offset-by-three                 { padding-left: 186px; }
+    .container .offset-by-four                  { padding-left: 248px; }
+    .container .offset-by-five                  { padding-left: 310px; }
+    .container .offset-by-six                   { padding-left: 372px; }
+    .container .offset-by-seven                 { padding-left: 434px; }
+    .container .offset-by-eight                 { padding-left: 496px; }
+    .container .offset-by-nine                  { padding-left: 558px; }
+    .container .offset-by-ten                   { padding-left: 620px; }
+    .container .offset-by-eleven                { padding-left: 682px; }
+}
+
+
+/* #Tablet (Landscape) or Desktop
+================================================== */
+@media (min-width: 1080px) {
+    .container                                  { width: 1032px; }
+    .container .column,
+    .container .columns                         { margin-left: 16px; margin-right: 16px; }
+    .column.alpha, .columns.alpha               { margin-left: 0; }
+    .column.omega, .columns.omega               { margin-right: 0; }
+
+    /*****************************
+    12 Column
+    (1000/12)-32 = 54
+    margin = 16*2 = 32
+    column width = 54
+    *****************************/
+    /* Base Grid */
+    /* total column width = (54*numCols) + (32*(numCols-1)) */
+    .container .one.column,
+    .container .one.columns                     { width: 54px;  }
+    .container .two.columns                     { width: 140px; }
+    .container .three.columns                   { width: 226px; }
+    .container .four.columns                    { width: 312px; }
+    .container .five.columns                    { width: 398px; }
+    .container .six.columns                     { width: 484px; }
+    .container .seven.columns                   { width: 570px; }
+    .container .eight.columns                   { width: 656px; }
+    .container .nine.columns                    { width: 742px; }
+    .container .ten.columns                     { width: 828px; }
+    .container .eleven.columns                  { width: 914px; }
+    .container .twelve.columns                  { width: 1000px; }
+
+    .container .one-third.column                { width: 312px; } /* ((1032/3) - 32) */
+    .container .two-thirds.column               { width: 656px; } /* (((1032/3) *2) - 32) */
+
+    /* Offsets */
+    /* total offset = (54*numCols) + (32*numCols) */
+    .container .offset-by-one                   { margin-left: 86px;  }
+    .container .offset-by-two                   { margin-left: 172px; }
+    .container .offset-by-three                 { margin-left: 258px; }
+    .container .offset-by-four                  { margin-left: 344px; }
+    .container .offset-by-five                  { margin-left: 430px; }
+    .container .offset-by-six                   { margin-left: 516px; }
+    .container .offset-by-seven                 { margin-left: 602px; }
+    .container .offset-by-eight                 { margin-left: 688px; }
+    .container .offset-by-nine                  { margin-left: 774px; }
+    .container .offset-by-ten                   { margin-left: 860px; }
+    .container .offset-by-eleven                { margin-left: 946px; }
+}
+
+
+/* #Clearing
+================================================== */
+/* Self Clearing Goodness */
+.container:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
+
+/* Use clearfix class on parent to clear nested columns,
+or wrap each row of columns in a <div class="row"> */
+.clearfix:before,
+.clearfix:after,
+.row:before,
+.row:after {
+  content: '\0020';
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0; }
+.row:after,
+.clearfix:after {
+  clear: both; }
+.row,
+.clearfix {
+  zoom: 1; }
+
+/* You can also use a <br class="clear" /> to clear columns */
+.clear {
+  clear: both;
+  display: block;
+  overflow: hidden;
+  visibility: hidden;
+  width: 0;
+  height: 0;
+}
